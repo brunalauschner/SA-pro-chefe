@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="336515b2fc6c4e1ba955f819be4d6f21" Name="Diagram1">
+        <EntityTypeShape EntityType="pro_chefeModel.categoria" Width="1.5" PointX="2.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.clients" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.clients_endereco" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.endereco" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.entregador" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.ingrediente" Width="1.5" PointX="2.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.itens_pedido" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.mesa" Width="1.5" PointX="3.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.pedido" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.produto" Width="1.5" PointX="6" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.tipo_usuario" Width="1.5" PointX="5.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="pro_chefeModel.usuario" Width="1.5" PointX="8" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="pro_chefeModel.FK_cliente_pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_endereco_clients1" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_clients_endereco_clients_endereco" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_entregador_pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_itens_pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_itens_produto" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_mesa_pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.FK_tipo_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.categoria_produto" ManuallyRouted="false" />
+        <AssociationConnector Association="pro_chefeModel.ingrediente_produto" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
